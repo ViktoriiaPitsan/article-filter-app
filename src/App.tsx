@@ -6,7 +6,7 @@ import { CssBaseline } from '@mui/material';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/article-filter-app">
       <CssBaseline />
       <Routes>
         <Route path="/" element={<HomePage />} />
