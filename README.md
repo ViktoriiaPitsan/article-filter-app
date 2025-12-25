@@ -4,7 +4,7 @@ A modern, responsive news dashboard built with **React**, **TypeScript**, and **
 
 ## Live DEMO
 Experience the live website:
-<a href="https://ViktoriiaPitsan.github.io/articles-app/" target="_blank">
+<a href="https://ViktoriiaPitsan.github.io/article-filter-app/" target="_blank">
   🌍 Live Demo
 </a>
 ## 🚀 Features
@@ -28,40 +28,18 @@ Experience the live website:
 ## 📦 Installation & Setup
 
 1. **Clone the repository**:
-   git clone <https://github.com/ViktoriiaPitsan/articles-app>
-
-2. **Install dependencies:**:
-   npm install
-
-3. **Set up API Key**:
-   The project uses a demo key for The Guardian API. You can replace it in useArticles.ts and ArticlePage.tsx.
-
-4. **Run the app**:
-   npm run dev
-
-
-## Installation 📥
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ViktoriiaPitsan/react_phone-catalog.git
-   ```
+   git clone [https://github.com/ViktoriiaPitsan/article-filter-app.git] (https://github.com/ViktoriiaPitsan/article-filter-app.git)
 
 2. Enter the directory:
    ```bash
-   cd react_phone-catalog
+   cd article-filter-app
    ```
-
-3. Install the dependencies:
-
-   ```bash
+3. **Install dependencies:**:
    npm install
-   ```
 
-4. Run the development server:
+4. **Set up API Key**:
+   The project uses a demo key for The Guardian API. You can replace it in useArticles.ts and ArticlePage.tsx.
 
-   ```bash
+5. **Run the app**:
    npm run dev
-   ```
 
-5. Open the app in your browser at `http://localhost:3000`.
