@@ -1,0 +1,15 @@
+@use 'sass:map';
+
+$colors: (
+  'main': #363636,
+  'secondary': #949494,
+  'border': #EAEAEA,
+  'white': #FFF,
+  'yellow': #fff200
+);
+$transition: 0.3s ease;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 24px;

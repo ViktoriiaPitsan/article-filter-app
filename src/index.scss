@@ -1,0 +1,17 @@
+@use '../src/vars' as *;
+@use 'sass:map';
+
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap';
+
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  color: map.get($colors, 'main');
+  background-color: map.get($colors, 'white');
+}
+
+mark {
+  padding: 0;
+  color: inherit;
+  background-color: map.get($colors, 'yellow');
+}
